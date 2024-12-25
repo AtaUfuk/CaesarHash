@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CaesarHash", "CaesarHash\CaesarHash.pyproj", "{AE13306E-6557-4BE5-9FBE-855002128158}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE13306E-6557-4BE5-9FBE-855002128158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE13306E-6557-4BE5-9FBE-855002128158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B934C6C-DBC9-401A-AE82-663AD44B9CC2}
+	EndGlobalSection
+EndGlobal
