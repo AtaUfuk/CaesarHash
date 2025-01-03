@@ -7,7 +7,8 @@ if(cm.check_file_path_exist(filePath)==False):
     cm.exit_project(0)
 is_encryption=input('Encryption or Decryption(Please write E or D)')
 
-content=cm.read_file_content(filePath)
+settings=cm.get_settings("./Settings/appSettings.json")
+content=cm.read_file_content(filePath,settings["EncodeUTF8"])
 myHashing=Hashing()
 result=''
 if(is_encryption=='E'):

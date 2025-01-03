@@ -26,7 +26,7 @@ class CommonMethods(object):
     def check_file_path_exist(full_path:str)->bool:
         return path.isfile(full_path)
 
-    def read_file_content(file_path:str)->str:
-        file=open(file_path,'r',encoding='utf-8')
+    def read_file_content(file_path:str,encode_format:str)->str:
+        file=open(file_path,'r',encoding=encode_format)
         return file.read()
 
